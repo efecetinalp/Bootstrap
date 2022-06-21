@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+*{
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Secular One', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-style{
+    background-color: #5D001E;
+    color: #E3E2DF;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+header navbar a{
+    text-decoration: none;
+    color: #E3E2DF;
+}
+
+.logo-style{
+    border: solid 2px #E3E2DF;
+    -webkit-box-shadow: 10px 10px 18px 4px rgba(0,0,0,0.27);
+    -moz-box-shadow: 10px 10px 18px 4px rgba(0,0,0,0.27);
+    box-shadow: 10px 10px 18px 4px rgba(0,0,0,0.27);
+}
+
+.title-style{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
+.section-style{
+    background-image: url(images/sticker.jpg);
+    background-size:cover;
+    color: #E3E2DF;
+}
+
+.col-style{
+    background-color: rgba(0,0,0,0.27);
+}
+
+.footer-style{
+    background-color: #5D001E;
+    color: #E3E2DF;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.footer-style ul li{
+    list-style-type: none;
+}
+
+.footer-style ul li a{
+    text-decoration: none;
+    color: #E3E2DF;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #593140;
+    background: transparent;
+    color:#F2F2F2;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span{
+    background: #593140;
+    height: 100%;
+    width: 0;
+    border-radius: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+button:hover{
+    background-color: rgba(255, 118, 118, 0.3);
+    -webkit-box-shadow: 10px 10px 18px 4px rgba(0,0,0,0.27);
+    -moz-box-shadow: 10px 10px 18px 4px rgba(0,0,0,0.27);
+    box-shadow: 10px 10px 18px 4px rgba(0,0,0,0.27);
+}
