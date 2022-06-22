@@ -1,2 +1,2 @@
 # Bootstrap
-Bootstrap ödevleri
+Patika.dev bootstrap ödevleri
