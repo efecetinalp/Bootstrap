@@ -1,9 +1,21 @@
+body{
+  padding-top: 70px;
+  background-color: rgb(250, 250, 250);
+}
+
+.middlearea{
+  max-height: 200px !important;
+}
+
 ::placeholder{
   text-align: center;
   font-size: 14px;
   color: gray;
   background-position: 40%;
   background-size: 6%;
+  background: url("http://127.0.0.1:5500/instagramclone/assets/search-solid.svg") no-repeat center;
+  background-position: 70px;
+  
 }
 
 input.empty {
@@ -43,4 +55,20 @@ input.empty {
 .rightpanellinks:hover {
   text-decoration: none;
   color: lightgrey;
+}
+
+.card-header{
+  background-color: white;
+}
+
+.card-footer{
+  background-color: white;
+}
+
+.rightpanel{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 80px;
+  border: none;
+  background-color: rgb(250, 250, 250);
 }
